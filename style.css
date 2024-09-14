@@ -1,0 +1,185 @@
+body {
+    font-family: cursive;
+    font-weight: 700;
+    color: #181818;
+}
+
+.border {
+    margin: 2rem;
+    border: 0.5rem solid black;
+    border-radius: 1.5rem;
+    bottom: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hours {
+    font-size: 9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.timezone {
+    font-size: 2.5rem;
+    color: #8080808c;
+    margin-right: 4rem;
+}
+
+.currentDate {
+    font-size: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.editV {
+    position: absolute;
+    width: 3rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+.tzChange {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#modal-1[aria-hidden="true"] {
+    display: none;
+}
+
+.overplay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(193 193 193 / 75%);
+    z-index: 4;
+    margin: 2.41rem;
+    border-radius: 1.5rem;
+}
+
+.modal__container {
+    background-color: #fff;
+    width: 43rem;
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: 0.3rem solid black;
+}
+
+.Ubutton {
+    position: absolute;
+}
+
+#modal-1-content {
+    display: flex;
+}
+
+.p1 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-family: cursive;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: all .4s ease-out;
+    max-height: 74px;
+}
+
+.p1:hover {
+    font-size: 1.8rem;
+}
+
+#modal-1-title {
+    font-size: 2rem;
+    margin: 0.2rem 0 1rem 0;
+}
+
+summary {
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #ffffff;
+    list-style: none;
+    border: 0.3rem solid black;
+    font-size: 1.5rem;
+    font-family: unset;
+    font-weight: bolder;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 28rem;
+}
+
+summary:after {
+    content: '';
+    display: inline-block;
+    float: right;
+    width: 1rem;
+    height: 1rem;
+    border-bottom: 5px solid currentColor;
+    border-left: 5px solid currentColor;
+    border-bottom-left-radius: 2px;
+    transform: rotate(45deg) translate(50%, 0%);
+    transform-origin: center center;
+    transition: transform ease-in-out 200ms;
+    margin: 0.3rem 0.2rem 0rem 0rem;
+}
+
+details[open] summary:after {
+    transform: rotate(-45deg) translate(0%, 0%);
+}
+
+input[type=radio] {
+    appearance: none;
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    background: white;
+    border: 0.3rem solid black;
+}
+
+li {
+    margin: 0;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #ccc;
+}
+
+input[type=radio]:after {
+    content: attr(title);
+}
+
+input[type=radio]:checked {
+    display: inline;
+}
+
+input {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-family: cursive;
+    outline: none;
+}
+
+label {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.fix {
+    cursor: pointer;
+}
