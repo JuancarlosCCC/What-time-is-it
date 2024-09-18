@@ -1,4 +1,4 @@
-This is my second proyect, a webpage that shows your time, zone, and date. Can select others timezones too. Proyect to learn the use of npm and libraries.+
+This is my second proyect, a webpage that shows your time, zone, and date. Can select others timezones too. Proyect to learn the use of npm and libraries.
 
 You can see the photos or directly via: https://juancarlosccc.github.io/What-time-is-it/
 
